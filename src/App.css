@@ -1,0 +1,57 @@
+body {
+  font-family: 'Inter';
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(242, 231, 231);
+}
+
+nav {
+  height: 80px;
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+.navbar {
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 15px 8px;
+}
+
+.location--img {
+  max-width: 400px;
+  max-height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.main--content {
+  display: flex;
+  margin: 30px;
+}
+
+.info {
+  padding-left: 15px;
+}
+
+.country {
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.741px;
+
+}
+
+.date {
+  font-weight: 700;
+}
+
+h1 {
+  margin: 1px;
+}
